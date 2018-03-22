@@ -1,0 +1,34 @@
+
+public class personas {
+//atributos
+	int edad;
+	String nombre;
+	String apellidos;
+	char colordepelo;
+	//constructor
+	void Persona(int edad,String nombre,String apellidos,char colordepelo){
+		this.edad=edad; 
+		this.nombre=nombre;
+		this.apellidos=apellidos;
+		this.colordepelo=colordepelo;
+	}
+	
+	//metodos         //va a recibir un numero , esto es para cambiar la edad de alguien //set=cambia
+	//cambia edad
+	 void setEdad(int nuevaEdad){  //hay q poner delante lo que va a devolver
+	 edad=nuevaEdad;
+	 
+}   //cambian nombre
+	 void setNombre(String nuevoNombre){ 
+		 nombre=nuevoNombre;
+	 
+	 }
+	 //cambia pelo
+	 void setColorPelo(char nuevoPelo){
+		 colordepelo=nuevoPelo;
+	 }
+	 String devuelveNombre(){
+		return nombre;
+		 
+	 }
+}
